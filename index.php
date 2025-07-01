@@ -85,7 +85,7 @@ $fileContent .= "  Script Filename: {$scriptFilename}\n";
 $fileContent .= "------------------------------------------------\n\n";
 
 // --- Define the filename ---
-$filename = 'tomb/tomb.txt';
+$filename = 'tomb.txt';
 
 // --- Write to the file ---
 $fileHandle = fopen($filename, 'a'); // 'a' mode appends to the file. Use 'w' to overwrite.
